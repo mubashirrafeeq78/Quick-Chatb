@@ -1,19 +1,9 @@
-import 'package:flutter/material.dart';
-import 'mobile_number_screen.dart';
+name: quick_chat
+description: A new Flutter project
 
-void main() {
-  runApp(const MyApp());
-}
+environment:
+  sdk: ">=3.0.0 <4.0.0"
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Quick Chat',
-      home: MobileNumberScreen(), // ← سب سے پہلے یہ اسکرین اوپن ہوگی
-    );
-  }
-}
+dependencies:
+  flutter:
+    sdk: flutter
